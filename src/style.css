@@ -10,6 +10,11 @@ body {
   background-size: cover;
   background-position: 0 30%;
 }
+@media (max-width: 648px) {
+  .bg-image {
+    background-position: center;
+  }
+}
 
 @utility box {
   @apply container max-w-7xl mx-auto px-4;
