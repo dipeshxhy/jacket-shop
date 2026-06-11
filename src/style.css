@@ -1,1 +1,9 @@
 @import 'tailwindcss';
+
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+@utility box {
+  @apply container max-w-7xl mx-auto px-4;
+}
